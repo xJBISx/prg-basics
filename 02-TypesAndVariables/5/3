@@ -1,0 +1,10 @@
+cube_side_a_string = input('Enter cuboid side a: ')
+cube_side_b_string = input('Enter cuboid side b: ')
+cube_side_c_string = input('Enter cuboid side c: ')
+cube_side_a = int(cube_side_a_string)
+cube_side_b = int(cube_side_b_string)
+cube_side_c = int(cube_side_c_string)
+cube_volume = cube_side_a * cube_side_b * cube_side_c
+cube_surface_area = cube_side_a * cube_side_b * 2 + cube_side_a * cube_side_c * 2 + cube_side_c * cube_side_b *2
+print(f'The volume of a cuboid with side a {cube_side_a},side b {cube_side_b},side c {cube_side_c} is {cube_volume}')
+print(f'The surface area of a cuboid with side a {cube_side_a},side b {cube_side_b},side c {cube_side_c} is {cube_surface_area}') 
